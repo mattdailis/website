@@ -88,7 +88,7 @@ An attitude that guides the architecture of CodeMirror is that
 functional (pure) code, which creates new values instead of having
 side effects, is much easier to work with than imperative code. But
 the browser DOM is obviously very imperative-minded, as are many of
-the systems that CodeMirror integrate with.
+the systems that CodeMirror integrates with.
 
 To resolve this contradiction, the library's state representation is
 strictly functional—the [document](##state.Text) and
